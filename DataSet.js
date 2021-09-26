@@ -7,4 +7,8 @@ module.exports = WerewolfEvents = [
     {"events":["run", "bath","sweep", "move"], "turn": false},
     {"events":["eating bread","playing"], "turn": false},
     {"events":["run", "sweep", "prey"], "turn": true}
+     {"events":["eating bread","playing"], "turn": false},
+    {"events":["eat", "run", "prey"], "turn":false} 
+    {"events":["fight","playing"], "turn": false},
+    {"events":["run", "bath", "prey"], "turn": true}
 ]
